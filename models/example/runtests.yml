@@ -1,0 +1,13 @@
+models:
+  - name: stg_orders
+    columns:
+      - name: Order_ID
+        tests:
+          - not_null
+          
+
+  - name: stg_sales
+    columns:
+      - name: Customer_Name
+        tests:
+          - not_null
